@@ -21,7 +21,7 @@ Based on the [documentation for linking static libraries](https://wiki.unrealeng
 
 #### Adding the library to your project
 
-* Compile the library as explained above for x64 and x86
+* Compile the library as explained above for x64 and x86, or download this [zipped build](nialna.github.io/libnoise-UE4-ready/bin.zip) with everything you need (but I'd advise building it yourself).
 * In your project's root directory, create a `ThirdParty` directory if you don't have it, and in it create a `LibNoise` directory which will contain a `Includes` and `Libraries` folder.
 * In the `Libraries` folder, copy `libnoise.lib` and rename it `libnoise.x64.lib` (you can also build and copy `libnoise.x86.lib`).
 * In the `Includes` folder, copy all the .h files of libnoise (the content of the `include` directory at the root of this repo).
