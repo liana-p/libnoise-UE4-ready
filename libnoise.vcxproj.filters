@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="modules">
+      <UniqueIdentifier>{3e800009-1c3b-4601-b4d6-dcb09ec61fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{1760aa94-ae68-4c74-9cc4-56673583c8f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{38b50660-2544-4005-a5b6-5af25a807f69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\module\abs.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\add.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\billow.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\blend.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\cache.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\checkerboard.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\clamp.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\const.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\curve.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\cylinders.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\displace.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\exponent.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\invert.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\max.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\min.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\modulebase.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\multiply.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\perlin.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\power.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\ridgedmulti.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\rotatepoint.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\scalebias.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\scalepoint.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\select.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\spheres.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\terrace.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\translatepoint.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\turbulence.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module\voronoi.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\cylinder.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\line.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\plane.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\sphere.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win32\dllmain.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\latlon.cpp" />
+    <ClCompile Include="src\noisegen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\basictypes.h" />
+    <ClInclude Include="include\exception.h" />
+    <ClInclude Include="include\interp.h" />
+    <ClInclude Include="include\latlon.h" />
+    <ClInclude Include="include\mathconsts.h" />
+    <ClInclude Include="include\misc.h" />
+    <ClInclude Include="include\noise.h" />
+    <ClInclude Include="include\noisegen.h" />
+    <ClInclude Include="include\vectortable.h" />
+    <ClInclude Include="include\module\abs.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\add.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\billow.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\blend.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\cache.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\checkerboard.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\clamp.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\const.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\curve.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\cylinders.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\displace.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\exponent.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\invert.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\max.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\min.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\module.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\modulebase.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\multiply.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\perlin.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\power.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\ridgedmulti.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\rotatepoint.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\scalebias.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\scalepoint.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\select.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\spheres.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\terrace.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\translatepoint.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\turbulence.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\module\voronoi.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="include\model\cylinder.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\model\line.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\model\model.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\model\plane.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\model\sphere.h">
+      <Filter>models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\win32\noise.rc">
+      <Filter>win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
