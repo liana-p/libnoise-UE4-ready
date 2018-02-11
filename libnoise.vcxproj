@@ -350,7 +350,7 @@
     <ClInclude Include="include\module\translatepoint.h" />
     <ClInclude Include="include\module\turbulence.h" />
     <ClInclude Include="include\module\voronoi.h" />
-    <ClInclude Include="include\noise.h" />
+    <ClInclude Include="include\libnoise.h" />
     <ClInclude Include="include\noisegen.h" />
     <ClInclude Include="include\vectortable.h" />
   </ItemGroup>

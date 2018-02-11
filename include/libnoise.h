@@ -20,8 +20,8 @@
 // off every 'zig'.)
 //
 
-#ifndef NOISE_H
-#define NOISE_H
+#ifndef LIBNOISE_H
+#define LIBNOISE_H
 
 /// @mainpage libnoise
 ///

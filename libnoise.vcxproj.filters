@@ -124,7 +124,6 @@
     <ClInclude Include="include\latlon.h" />
     <ClInclude Include="include\mathconsts.h" />
     <ClInclude Include="include\misc.h" />
-    <ClInclude Include="include\noise.h" />
     <ClInclude Include="include\noisegen.h" />
     <ClInclude Include="include\vectortable.h" />
     <ClInclude Include="include\module\abs.h">
@@ -232,6 +231,7 @@
     <ClInclude Include="include\model\sphere.h">
       <Filter>models</Filter>
     </ClInclude>
+    <ClInclude Include="include\libnoise.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="src\win32\noise.rc">
