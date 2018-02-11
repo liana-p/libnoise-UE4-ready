@@ -65,6 +65,12 @@ public MyGame(ReadOnlyTargetRules Target): base(Target)
 If you want to verify that the library loads correctly, add the following code to some component so it can run on game start:
 
 ```c++
+// At the top of your file
+#include <libnoise.h>
+
+using namespace noise;
+
+// Inside some function
 module::Perlin myModule;
 double value = myModule.GetValue(1.25, 0.75, 0.50);
 UE_LOG(LogTemp, Warning, TEXT("Perlin hello world value: %f"), value);
