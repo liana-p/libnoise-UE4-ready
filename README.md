@@ -1,3 +1,5 @@
+**[NOTE: This was written in 2017 using Unreal 4.18 and might not be fully compatible with latest UE4 versions (hasn't been tested, may or may not work). Please feel free to open issues or pull requests for improvements if you wish to]**
+
 # libnoise UE4-ready
 
 libnoise configured for x64 build compatible with UE4, in which you need to [compile libraries yourself](https://wiki.unrealengine.com/Linking_Static_Libraries_Using_The_Build_System) using the same compiler as your game.
